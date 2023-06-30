@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!--Estos link es para traer tipografias de un sitio-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <title>optic-mec</title>
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg border">
+        <nav class="container">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logo.png" alt="logo" class="w-75">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" href="./pages/gafas.html">Gafas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" href="./pages/accesorios.html">Accesorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" href="./pages/agendacita.html">Agenda tu cita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex justify-content-center" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container mt-3 mb-5">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner d-none d-lg-block">
+                <div class="carousel-item active" data-bs-interval="2500">
+                    <img src="./img/ImgAgendaCita.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="./img/transitions.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="./img/lentessol.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="row mb-5">
+            <div class="col-lg-6 mb-5">
+                <h3 class="text-center fw-bold">OFERTAS Y PROMOCION</h3>
+                <img class="w-100" src="./img/promocion.png" alt="promocion">
+            </div>
+
+            <div class="col-lg-6">
+                <h3 class="text-center fw-bold">LO MAS VENDIDO</h3>
+                <img class="w-100" src="./img/vendido.jfif" alt="vendido">
+            </div>
+
+
+            <div class="card text-bg-info mt-3 col-lg-6">
+                <div class="card-header">¿POR QUÉ ELEGIRNOS?</div>
+                <div class="card-body">
+                    <p class="card-text">Somos una empresa comprometida y responsables con las labores que desempeñamos,
+                        nuestra
+                        prioridad son nuestros clientes y sus necesidades, por ello nos enfocamos en que cada producto y
+                        servicio sea de alta calidad para el bienestar de quienes confían en nosotros. Siempre estamos
+                        dispuestos a brindarte la mejor asesoría para que te sientas seguro al momento de hacer uso de
+                        nuestros
+                        servicios y nos caracterizamos por tener una visión empática e integral.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="text-center fw-bold mt-3">VIDEO DE LENTES</h3>
+                <div class="ratio ratio-16x9">
+                    <iframe controls muted width="800" height="500" src="https://www.youtube.com/embed/WfSACXV75l8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row p-5 text-bg-dark p-3">
+                <div class="col-xs-12 col-lg-3">
+                    <p class="h3 mb-3">Acerca de nosotros</p>
+                    <div class="mb-3">
+                        <a class="text-white text-decoration-none" href="">¿QUIÉNES SOMOS?</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="text-white text-decoration-none" href="./pages/contacto.html">CONTACTO</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="text-white text-decoration-none" c href="">UBICACIÓN</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <h3>Redes sociales</h3>
+                    <ul>
+                        <li>opcticaopti_mec@hotmail.com</li>
+                        <li>3017016794</li>
+                        <li>@optica_optimec</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <p class="h3 mb-3">Informacion</p>
+                    <div class="mb-3">
+                        <a class="text-white text-decoration-none" href="">Términos y condiciones</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="text-white text-decoration-none">Política de reembolso</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="text-white text-decoration-none">Todo sobre envíos</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="text-white text-decoration-none">Preguntas frecuentes</a>
+                    </div>
+                    <div class="mb-3">
+                        <a class="text-white text-decoration-none">Contacto</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <h3>Ubicacion</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d350.5558295552248!2d-75.56116036630655!3d6.252337184493746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428fa0df40c11%3A0xb9d0e847df73dcb0!2s%C3%93ptica%20Opti-Mec!5e0!3m2!1ses!2sco!4v1685907887578!5m2!1ses!2sco"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
