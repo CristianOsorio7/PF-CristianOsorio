@@ -10,6 +10,10 @@
   background-color: #79bde8;
 }
 
+.logo {
+  width: 300px;
+}
+
 /* carrusel */
 .slide {
   margin-top: 10px;
@@ -18,9 +22,30 @@
   height: 38vh;
 }
 
+.sombra-carru {
+  box-shadow: 2px 2px 7px 9px #79bde8;
+}
+
+.caja-sombra {
+  box-shadow: 10px 10px 4px #79bde8;
+}
+
+.title-sobra {
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
+
+.img-rotar:hover {
+  transform: rotate(4deg) scale(1.2);
+  transition-duration: 1s;
+}
+
 /* Imagen de pagina de consulta */
 .imgconsulta {
   height: 500px;
+}
+
+.img-sombra {
+  box-shadow: 15px 15px 6px #79bde8;
 }
 
 /*# sourceMappingURL=styles.css.map */
