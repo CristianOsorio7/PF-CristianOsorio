@@ -1,24 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /*esta propiedad es para que me respere las medidas de todos los elementos*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*esta propiedad es para que me respere las medidas de todos los elementos*/
 }
 
 /* Color del navar */
 .navbar {
-    background-color: #79bde8;
+  background-color: #79bde8;
 }
 
 /* carrusel */
 .slide {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+.slide img {
+  height: 38vh;
 }
 
-.slide img {
-    height: 38vh;
-}
 /* Imagen de pagina de consulta */
-.imgconsulta{
-    height:500px
+.imgconsulta {
+  height: 500px;
 }
+
+/*# sourceMappingURL=styles.css.map */
