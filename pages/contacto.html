@@ -60,50 +60,47 @@
         <section class="container">
             <div class="row mt-3 p-5">
                 <h1 class="text-center mt-3 mb-5">¡ESTAMOS PARA AYUDARTE!</h1>
-                <div class="col-xs-12 col-lg-6">
+                <div class="col-12 col-lg-6">
                     <form>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Ingrese nombre y apellido:</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1"
+                            <label for="nombreyapellido" class="form-label">Ingrese nombre y apellido:</label>
+                            <input type="text" class="form-control" id="nombreyapellido" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="correoelectronico" class="form-label">Ingrese su correo electrónico:</label>
+                            <input type="email" class="form-control" id="correoelectronico"
                                 aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Ingrese su correo electrónico:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                            <label for="numncelular" class="form-label">Ingrese su número de celular:</label>
+                            <input type="tel" class="form-control" id="numncelular" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Ingrese su número de celular:</label>
-                            <input type="number" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Ingrese su numero de cédula:</label>
-                            <input type="number" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
+                            <label for="numncedula" class="form-label">Ingrese su numero de cédula:</label>
+                            <input type="number" class="form-control" id="numncedula" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                             <fieldset class="row mb-3">
                                 <legend class="col-form-label col-sm-2 pt-0">Asunto:</legend>
                                 <div class="col-sm-10">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="solicitud"
                                             value="option1" checked>
-                                        <label class="form-check-label" for="gridRadios1">
+                                        <label class="form-check-label" for="solicitud">
                                             Solicitud
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="inquietud"
                                             value="option2">
-                                        <label class="form-check-label" for="gridRadios2">
+                                        <label class="form-check-label" for="inquietud">
                                             Inquietud
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="queja"
                                             value="option3">
-                                        <label class="form-check-label" for="gridRadios3">
+                                        <label class="form-check-label" for="queja">
                                             Queja
                                         </label>
                                     </div>
@@ -111,19 +108,19 @@
                             </fieldset>
                         </div>
                         <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Ingrese su mensaje:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label for="mensaje" class="form-label">Ingrese su mensaje:</label>
+                            <textarea class="form-control" id="mensaje" rows="3"></textarea>
                         </div>
                         <div class="form-check mb-3">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="" id="condiciones">
+                            <label class="form-check-label" for="condiciones">
                                 Acepta los términos y condiciones.
                             </label>
                         </div>
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
-                <div class="col-xs-12 col-lg-6 mt-3">
+                <div class="col-12 col-lg-6 mt-3">
                     <img class="img-sombra imgconsulta" src="../img/descuento.jpg" alt="consulta">
                 </div>
             </div>
@@ -134,7 +131,7 @@
     <footer>
         <div class="container-fluid">
             <div class="row p-5 text-bg-dark p-3">
-                <div class="col-xs-12 col-lg-3">
+                <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
                     <p class="h3 mb-3">Acerca de nosotros</p>
                     <div class="mb-3">
                         <a class="text-white text-decoration-none" href="">¿QUIÉNES SOMOS?</a>
@@ -146,7 +143,7 @@
                         <a class="text-white text-decoration-none" c href="">UBICACIÓN</a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-lg-3">
+                <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
                     <h3>Redes sociales</h3>
                     <ul>
                         <li>opcticaopti_mec@hotmail.com</li>
@@ -154,7 +151,7 @@
                         <li>@optica_optimec</li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-lg-3">
+                <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
                     <p class="h3 mb-3">Información</p>
                     <div class="mb-3">
                         <a class="text-white text-decoration-none" href="">Términos y condiciones</a>
@@ -172,7 +169,7 @@
                         <a class="text-white text-decoration-none">Contacto</a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-lg-3">
+                <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
                     <h3>Ubicación</h3>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d350.5558295552248!2d-75.56116036630655!3d6.252337184493746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428fa0df40c11%3A0xb9d0e847df73dcb0!2s%C3%93ptica%20Opti-Mec!5e0!3m2!1ses!2sco!4v1685907887578!5m2!1ses!2sco"
